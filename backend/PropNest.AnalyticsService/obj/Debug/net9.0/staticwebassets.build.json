@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "J/jLslVclXOr4kgcusQjEbQyXPW3xw6mtdBO+Hgp7Y4=",
+  "Source": "PropNest.AnalyticsService",
+  "BasePath": "_content/PropNest.AnalyticsService",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}
