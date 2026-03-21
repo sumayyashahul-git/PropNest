@@ -1,0 +1,6 @@
+@PropNest.AuthService_HostAddress = http://localhost:5017
+
+GET {{PropNest.AuthService_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

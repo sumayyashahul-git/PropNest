@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "backend", "backend", "{FFD4B965-E7F0-478A-80AC-18F4BF3B8E4C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PropNest.Shared", "backend\PropNest.Shared\PropNest.Shared.csproj", "{BB0D91F7-20F8-496A-9EF1-9F9CD9FD0E7B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PropNest.AuthService", "backend\PropNest.AuthService\PropNest.AuthService.csproj", "{EF23FE33-E493-48B6-AD5A-CB6C0E1CAFF0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PropNest.PropertyService", "backend\PropNest.PropertyService\PropNest.PropertyService.csproj", "{04887615-82FE-455C-9C7F-685B47D3516A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PropNest.AnalyticsService", "backend\PropNest.AnalyticsService\PropNest.AnalyticsService.csproj", "{407F0930-D946-4DD9-89B9-9340F747F1B1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PropNest.Gateway", "backend\PropNest.Gateway\PropNest.Gateway.csproj", "{B468F4A4-E2FF-4F76-A725-6FFB85B1C1D6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BB0D91F7-20F8-496A-9EF1-9F9CD9FD0E7B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BB0D91F7-20F8-496A-9EF1-9F9CD9FD0E7B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BB0D91F7-20F8-496A-9EF1-9F9CD9FD0E7B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BB0D91F7-20F8-496A-9EF1-9F9CD9FD0E7B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EF23FE33-E493-48B6-AD5A-CB6C0E1CAFF0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EF23FE33-E493-48B6-AD5A-CB6C0E1CAFF0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EF23FE33-E493-48B6-AD5A-CB6C0E1CAFF0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EF23FE33-E493-48B6-AD5A-CB6C0E1CAFF0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{04887615-82FE-455C-9C7F-685B47D3516A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{04887615-82FE-455C-9C7F-685B47D3516A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{04887615-82FE-455C-9C7F-685B47D3516A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{04887615-82FE-455C-9C7F-685B47D3516A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{407F0930-D946-4DD9-89B9-9340F747F1B1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{407F0930-D946-4DD9-89B9-9340F747F1B1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{407F0930-D946-4DD9-89B9-9340F747F1B1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{407F0930-D946-4DD9-89B9-9340F747F1B1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B468F4A4-E2FF-4F76-A725-6FFB85B1C1D6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B468F4A4-E2FF-4F76-A725-6FFB85B1C1D6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B468F4A4-E2FF-4F76-A725-6FFB85B1C1D6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B468F4A4-E2FF-4F76-A725-6FFB85B1C1D6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{BB0D91F7-20F8-496A-9EF1-9F9CD9FD0E7B} = {FFD4B965-E7F0-478A-80AC-18F4BF3B8E4C}
+		{EF23FE33-E493-48B6-AD5A-CB6C0E1CAFF0} = {FFD4B965-E7F0-478A-80AC-18F4BF3B8E4C}
+		{04887615-82FE-455C-9C7F-685B47D3516A} = {FFD4B965-E7F0-478A-80AC-18F4BF3B8E4C}
+		{407F0930-D946-4DD9-89B9-9340F747F1B1} = {FFD4B965-E7F0-478A-80AC-18F4BF3B8E4C}
+		{B468F4A4-E2FF-4F76-A725-6FFB85B1C1D6} = {FFD4B965-E7F0-478A-80AC-18F4BF3B8E4C}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,6 @@
+@PropNest.PropertyService_HostAddress = http://localhost:5062
+
+GET {{PropNest.PropertyService_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

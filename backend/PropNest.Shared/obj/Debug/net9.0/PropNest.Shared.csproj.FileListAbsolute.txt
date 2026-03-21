@@ -1,0 +1,11 @@
+D:\Github Projects\PropNest\backend\PropNest.Shared\bin\Debug\net9.0\PropNest.Shared.deps.json
+D:\Github Projects\PropNest\backend\PropNest.Shared\bin\Debug\net9.0\PropNest.Shared.dll
+D:\Github Projects\PropNest\backend\PropNest.Shared\bin\Debug\net9.0\PropNest.Shared.pdb
+D:\Github Projects\PropNest\backend\PropNest.Shared\obj\Debug\net9.0\PropNest.Shared.GeneratedMSBuildEditorConfig.editorconfig
+D:\Github Projects\PropNest\backend\PropNest.Shared\obj\Debug\net9.0\PropNest.Shared.AssemblyInfoInputs.cache
+D:\Github Projects\PropNest\backend\PropNest.Shared\obj\Debug\net9.0\PropNest.Shared.AssemblyInfo.cs
+D:\Github Projects\PropNest\backend\PropNest.Shared\obj\Debug\net9.0\PropNest.Shared.csproj.CoreCompileInputs.cache
+D:\Github Projects\PropNest\backend\PropNest.Shared\obj\Debug\net9.0\PropNest.Shared.dll
+D:\Github Projects\PropNest\backend\PropNest.Shared\obj\Debug\net9.0\refint\PropNest.Shared.dll
+D:\Github Projects\PropNest\backend\PropNest.Shared\obj\Debug\net9.0\PropNest.Shared.pdb
+D:\Github Projects\PropNest\backend\PropNest.Shared\obj\Debug\net9.0\ref\PropNest.Shared.dll
