@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("PropNest.AnalyticsService")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+fb241c0300dedbacb408b205ae58987e1367e51b")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+cdc1bd30f9f1c202ab57916b48c4bded0dba6dbe")]
 [assembly: System.Reflection.AssemblyProductAttribute("PropNest.AnalyticsService")]
 [assembly: System.Reflection.AssemblyTitleAttribute("PropNest.AnalyticsService")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

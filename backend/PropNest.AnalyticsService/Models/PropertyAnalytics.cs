@@ -22,4 +22,4 @@ public class PriceHistory
     public decimal NewPrice { get; set; }
     public decimal Difference { get; set; }
     public DateTime ChangedAt { get; set; } = DateTime.UtcNow;
-}
+}   

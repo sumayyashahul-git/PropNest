@@ -9,3 +9,4 @@ D:\Github Projects\PropNest\backend\PropNest.Shared\obj\Debug\net9.0\PropNest.Sh
 D:\Github Projects\PropNest\backend\PropNest.Shared\obj\Debug\net9.0\refint\PropNest.Shared.dll
 D:\Github Projects\PropNest\backend\PropNest.Shared\obj\Debug\net9.0\PropNest.Shared.pdb
 D:\Github Projects\PropNest\backend\PropNest.Shared\obj\Debug\net9.0\ref\PropNest.Shared.dll
+D:\Github Projects\PropNest\backend\PropNest.Shared\obj\Debug\net9.0\PropNest.Shared.sourcelink.json

@@ -159,3 +159,4 @@ D:\Github Projects\PropNest\backend\PropNest.AuthService\obj\Debug\net9.0\refint
 D:\Github Projects\PropNest\backend\PropNest.AuthService\obj\Debug\net9.0\PropNest.AuthService.pdb
 D:\Github Projects\PropNest\backend\PropNest.AuthService\obj\Debug\net9.0\PropNest.AuthService.genruntimeconfig.cache
 D:\Github Projects\PropNest\backend\PropNest.AuthService\obj\Debug\net9.0\ref\PropNest.AuthService.dll
+D:\Github Projects\PropNest\backend\PropNest.AuthService\obj\Debug\net9.0\PropNest.AuthService.sourcelink.json
