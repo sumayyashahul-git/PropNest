@@ -1,0 +1,106 @@
+@model List<PropNest.AgentPortal.Models.PropertyViewModel>
+
+@{
+    var propertyTypes = new[] { "Apartment", "Villa", "Townhouse", "Penthouse", "Studio", "Office" };
+}
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My Listings — PropNest</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body class="min-h-screen flex flex-col bg-gray-50">
+
+<!-- Header -->
+<header class="bg-gray-900 px-10 h-16 flex items-center justify-between shadow-lg">
+    <span class="text-red-400 text-xl font-bold">🏠 PropNest Agent</span>
+    <nav class="flex items-center gap-6">
+        <span class="text-gray-400 text-sm">👤 @ViewBag.UserName</span>
+        <a href="/Properties/Create"
+            class="bg-red-500 hover:bg-red-600 text-white text-sm px-4 py-2 rounded-lg transition-colors">
+            + New Listing
+        </a>
+        <a href="/Account/Logout"
+            class="border border-red-500 text-red-400 hover:bg-red-500 hover:text-white text-sm px-4 py-2 rounded-lg transition-colors">
+            Logout
+        </a>
+    </nav>
+</header>
+
+<!-- Main -->
+<main class="flex-1 px-10 py-8">
+    <div class="mb-6 flex justify-between items-center">
+        <div>
+            <h1 class="text-3xl font-bold text-gray-800">My Listings</h1>
+            <p class="text-gray-500 mt-1">@Model.Count properties</p>
+        </div>
+    </div>
+
+    @if (!Model.Any())
+    {
+        <div class="text-center py-20">
+            <p class="text-gray-400 text-lg">No listings yet.</p>
+            <a href="/Properties/Create"
+                class="inline-block mt-4 bg-red-500 hover:bg-red-600 text-white px-6 py-2 rounded-lg text-sm">
+                Create your first listing
+            </a>
+        </div>
+    }
+    else
+    {
+        <div class="bg-white rounded-2xl shadow-sm overflow-hidden">
+            <table class="w-full">
+                <thead class="bg-gray-50 border-b border-gray-100">
+                    <tr>
+                        <th class="text-left px-6 py-4 text-xs font-semibold text-gray-500 uppercase">Property</th>
+                        <th class="text-left px-6 py-4 text-xs font-semibold text-gray-500 uppercase">Type</th>
+                        <th class="text-left px-6 py-4 text-xs font-semibold text-gray-500 uppercase">Price</th>
+                        <th class="text-left px-6 py-4 text-xs font-semibold text-gray-500 uppercase">Beds</th>
+                        <th class="text-left px-6 py-4 text-xs font-semibold text-gray-500 uppercase">Views</th>
+                        <th class="text-left px-6 py-4 text-xs font-semibold text-gray-500 uppercase">Actions</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var p in Model)
+                    {
+                        <tr class="border-b border-gray-50 hover:bg-gray-50 transition-colors">
+                            <td class="px-6 py-4">
+                                <p class="text-sm font-medium text-gray-800">@p.Title</p>
+                                <p class="text-xs text-gray-400">📍 @p.Community, @p.Emirate</p>
+                            </td>
+                            <td class="px-6 py-4">
+                                <span class="bg-red-50 text-red-600 text-xs px-2 py-1 rounded-full">
+                                    @propertyTypes[p.Type]
+                                </span>
+                            </td>
+                            <td class="px-6 py-4 text-sm font-semibold text-red-500">
+                                AED @p.Price.ToString("N0")
+                            </td>
+                            <td class="px-6 py-4 text-sm text-gray-600">@p.Bedrooms 🛏</td>
+                            <td class="px-6 py-4 text-sm text-gray-600">👁 @p.ViewCount</td>
+                            <td class="px-6 py-4">
+                                <form method="post" action="/Properties/Delete/@p.Id"
+                                    onsubmit="return confirm('Delete this listing?')">
+                                    <button type="submit"
+                                        class="text-red-500 hover:text-red-700 text-xs font-medium">
+                                        Delete
+                                    </button>
+                                </form>
+                            </td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+    }
+</main>
+
+<!-- Footer -->
+<footer class="bg-gray-900 text-gray-400 px-10 py-5 flex justify-between text-sm">
+    <span>© 2024 PropNest — Agent Portal</span>
+    <span>UAE Real Estate Platform</span>
+</footer>
+
+</body>
+</html>
