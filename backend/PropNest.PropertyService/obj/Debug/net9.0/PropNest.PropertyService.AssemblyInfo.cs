@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("PropNest.PropertyService")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+cdc1bd30f9f1c202ab57916b48c4bded0dba6dbe")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3bd4a73e758df46f84cb3d161a22e1fe9e4f3fe7")]
 [assembly: System.Reflection.AssemblyProductAttribute("PropNest.PropertyService")]
 [assembly: System.Reflection.AssemblyTitleAttribute("PropNest.PropertyService")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
